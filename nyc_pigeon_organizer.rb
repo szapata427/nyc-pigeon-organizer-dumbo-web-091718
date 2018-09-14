@@ -28,9 +28,10 @@ end
 names_array.each do |name|
 data.each do |desc, info|
   info.each do |info, value|
+    
 if value.include?(name)
   
-  pigeon_hash[name][desc] << desc.to_s
+  pigeon_hash[name][desc] << info.to_s
 end
 end
 end

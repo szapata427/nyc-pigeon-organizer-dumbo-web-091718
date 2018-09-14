@@ -6,7 +6,8 @@ names_array = []
   
   data.each do |desc, info|
   info.each do |info, names|
-    names_array << names
+    names.each do |name|
+    names_array << name
     
   end
 end

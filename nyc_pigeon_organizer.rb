@@ -21,6 +21,7 @@ names_array.each do |name|
   pigeon_hash[name] = {}
   
   data.keys.each do |desc|
+    binding.pry
     pigeon_hash[name][desc] = {}
   end
 end

@@ -13,7 +13,7 @@ names_array = []
 end
 end
 
-names_array.uniq
+names_array.uniq!
 
 pigeon_hash = {}
 

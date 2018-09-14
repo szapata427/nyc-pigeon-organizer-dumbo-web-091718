@@ -19,7 +19,8 @@ pigeon_hash = {}
 
 names_array.each do |name|
   pigeon_hash[name] = {}
-  data.each do |desc|
+  
+  data.keys.each do |desc|
     pigeon_hash[name][desc] = {}
   end
 end

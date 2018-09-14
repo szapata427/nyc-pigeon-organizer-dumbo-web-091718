@@ -20,6 +20,8 @@ names_array.each do |name|
   end
 end
 
+
+
 end
  
   

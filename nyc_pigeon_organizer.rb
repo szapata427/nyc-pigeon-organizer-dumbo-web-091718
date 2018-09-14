@@ -19,9 +19,18 @@ names_array.each do |name|
     pigeon_hash[name][desc] = {}
   end
 end
-
-
-
+names_array.each do |name|
+data.each do |desc, info|
+  info.each do |info, value|
+if value.include?(name)
+  
+  pigeon_hash[name][desc] << desc.to_s
+end
+end
+end
+end
+pigeon_hash
+  
 end
  
   

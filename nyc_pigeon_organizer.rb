@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   data.each do |desc, info|
     var = desc
     
- #binding.pry
+
  
   info.each do |info, value|
  
@@ -18,5 +18,5 @@ def nyc_pigeon_organizer(data)
 end
 end
 end
-new_hash
+# new_hash
 end

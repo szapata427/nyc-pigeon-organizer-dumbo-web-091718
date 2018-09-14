@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     var = desc
  #binding.pry
   info.each do |info, value|
-  #binding.pry
+  binding.pry
 end
 end
 end

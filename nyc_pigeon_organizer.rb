@@ -13,8 +13,7 @@ def nyc_pigeon_organizer(data)
   
   if new_hash.include?(info)
     new_hash[info][:desc] << var
-  
-    binding.pry
+   binding.pry
   
 end
 end

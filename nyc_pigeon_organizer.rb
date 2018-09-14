@@ -6,7 +6,6 @@ def nyc_pigeon_organizer(data)
   data.each do |desc, info|
     var = desc
    info.each do |info, value|
-    require "pry"
   if new_hash.include?(info)
     
     new_hash[info][:desc] << var

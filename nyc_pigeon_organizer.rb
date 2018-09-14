@@ -1,17 +1,16 @@
 
-
+require "pry"
 def nyc_pigeon_organizer(data)
-  new_hash = {}
+ names_array = []
   
   data.each do |desc, info|
-    var = desc
-   info.each do |info, names|
-  if new_hash.include?(info)
-    
-    new_hash[names][:desc] << var
-    
-      binding.pry
-
+  info.each do |info, names|
+    names_array << names
+    binding.pry
+  end
+end
+end
+ 
   
 end
 end

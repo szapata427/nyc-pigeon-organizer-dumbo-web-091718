@@ -5,10 +5,11 @@ def nyc_pigeon_organizer(data)
   
   data.each do |desc, info|
     var = desc
-   info.each do |info, value|
+   info.each do |answer, value|
+    binding.pry
   if new_hash.include?(info)
     new_hash[info][:desc] << var
-    binding.pry
+  
   
 end
 end

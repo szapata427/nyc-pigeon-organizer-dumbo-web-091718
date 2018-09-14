@@ -11,6 +11,7 @@ names_array = []
     
   end
 end
+end
 names_array.flatten.uniq
 
 pigeon_hash = {}
